@@ -124,7 +124,7 @@ export LANG=en_US.UTF-8
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
-  export EDITOR='cde -w'
+  export EDITOR='code -w'
 fi
 
 # Compilation flags
