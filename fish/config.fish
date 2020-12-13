@@ -1,6 +1,6 @@
 # starship init fish | source
 
-set -x GOPATH /Users/d073502/workspace/sap-cx/go
+set -x GOPATH /Users/montaro/workspace/go
 
 alias k="kubectl"
 alias g="git"
