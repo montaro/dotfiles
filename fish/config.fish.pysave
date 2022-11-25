@@ -1,0 +1,15 @@
+if status is-interactive
+    # Commands to run in interactive sessions can go here
+end
+
+alias k='kubectl'
+alias g='git'
+export EDITOR='code -w'
+export KUBE_EDITOR='code -w'
+# fish_add_path /usr/local/opt/mysql-client/bin
+fish_add_path /opt/homebrew/bin/
+# status is-interactive; and pyenv init --path | source
+export NVM_DIR="$HOME/.nvm"
+
+# starship init fish | source
+# source (/usr/local/bin/starship init fish --print-full-init | psub)
